@@ -1,0 +1,22 @@
+{
+  "name": "SeleniumPageObjectModel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.3",
+    "@types/chai": "^4.3.3",
+    "@types/chromedriver": "^81.0.1",
+    "@types/node": "^18.7.16",
+    "@types/selenium-webdriver": "^4.1.5",
+    "chai": "^4.3.6",
+    "chromedriver": "^104.0.0",
+    "selenium-webdriver": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "allTestCucumber": "cucumber-js -t @allTest", 
+    "testSeleniumLogin": "ts-node src/test/testSelenium"
+  }
+}
